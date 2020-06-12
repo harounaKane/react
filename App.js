@@ -160,8 +160,6 @@ export default class App extends React.Component {
   };
 
   showList = () => {
-    console.log ('showList');
-
     if (this.state.taches.length > 0) {
       return (
         <ListeTache
@@ -179,8 +177,6 @@ export default class App extends React.Component {
   };
 
   render () {
-    console.log ('RENDER');
-
     return (
       <View style={{flex: 1}}>
         <Header titre="Liste de tâches" />
