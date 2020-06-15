@@ -199,7 +199,7 @@ export default class App extends React.Component {
               )}
             </Tab.Screen>
 
-            {/* LISTE DES TACHES EN COURS */}
+            {/* LISTE DES TACHES EN COURS ! */}
 
             <Tab.Screen name="En cours">
               {() => (
